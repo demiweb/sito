@@ -1060,6 +1060,7 @@
 @media screen and (max-width: 500px) {
   .our-history__bot-right .img {
     padding-top: 110%;
+
     &::after {
       display: inline-block;
       content: '';
@@ -1150,6 +1151,25 @@
     img {
       width: 20px;
       height: 20px;
+    }
+  }
+  .our-history .croason {
+    width: 50px;
+    height: 57px;
+  }
+  .our-history .baton {
+    width: 25px;
+    height: 68px;
+  }
+
+  .locations {
+    .bs1 {
+      width: 76px;
+      height: 48px;
+    }
+    .bs2 {
+      width: 44px;
+      height: 50px;
     }
   }
 }
