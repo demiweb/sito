@@ -276,7 +276,7 @@ controlMapSections();
 
 
 // scroll animations
-var anim = document.querySelectorAll('.anim')
+var anim = document.querySelectorAll('.anim');
 
 function scrollAnimations() {
     if (anim.length) {
