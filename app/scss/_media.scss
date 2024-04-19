@@ -927,9 +927,11 @@
   }
   .single-advantage {
     width: calc(50% - (10px / 2));
+
     .txt {
       flex-grow: 0;
     }
+
     .bot {
       flex-direction: column;
       height: auto;
@@ -1335,6 +1337,23 @@
     .bs2 {
       width: 44px;
       height: 54px;
+    }
+  }
+  .contacts-right .form-logo {
+    //top: 10px;
+    //right: 10px;
+    //width: 45px;
+    //height: 64px;
+  }
+  .steps-open {
+    background: #f2f2f2;
+
+    > .img {
+      display: none;
+    }
+
+    .croason {
+      display: none;
     }
   }
 }
